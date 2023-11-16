@@ -142,7 +142,7 @@ public abstract class AbstractWorldMap implements IWorldMap, IPositionChangeObse
                     }
                 }
             }
-            case TOXIC_CORPSES -> throw new UnsupportedOperationException("Not implemented yet"); //TODO
+            case TOXIC_CORPSES -> throw new UnsupportedOperationException("Not implemented yet");
         }
     }
 
@@ -205,7 +205,7 @@ public abstract class AbstractWorldMap implements IWorldMap, IPositionChangeObse
     }
 
     public int getNumberOfTakenFields() {
-        return animals.size() + grasses.size(); // todo - wynik prawidłowy tylko pomiędzy jedzeniem a rośnięciem trawy
+        return animals.size() + grasses.size();
     }
 
 

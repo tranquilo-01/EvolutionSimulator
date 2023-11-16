@@ -111,7 +111,7 @@ public class Genome implements IGenome {
     @Override
     public void nextGene() {
         int len = this.genome.length;
-        switch (behaviorVariant) {                         //consider czy dziedziczenie lepsze niż switch??? - chyba nie przy tak małej zmianie
+        switch (behaviorVariant) {
             case FULL_PREDESTINATION -> this.currentGeneIndex = (this.currentGeneIndex + 1) % len;
             case A_LITTLE_MADNESS -> {
                 if (rand.nextInt(10) < 8) {

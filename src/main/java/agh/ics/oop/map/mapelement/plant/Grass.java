@@ -1,4 +1,4 @@
-package agh.ics.oop.map.mapelement.plant; // todo pakiet bez sensu przy jednym typie rośliny
+package agh.ics.oop.map.mapelement.plant;
 
 import agh.ics.oop.Vector2d;
 import agh.ics.oop.map.mapelement.IMapElement;

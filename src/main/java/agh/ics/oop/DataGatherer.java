@@ -12,11 +12,11 @@ import java.util.Objects;
 public class DataGatherer {
     private final IWorldMap map;
     private final Graveyard graveyard;
-    private Animal currentlyWatchedAnimal; // todo ??? watching chosen animal
+    private Animal currentlyWatchedAnimal;
 
-    private int aliveAnimalNumber; // todo - dostęp
+    private int aliveAnimalNumber;
     private int grassNumber;
-    private int mostPopularGenome; // todo - most popular genome
+    private int mostPopularGenome;
     private int sumOfAnimalEnergy;
     private int freeFieldsNumber;
     private double averageLifespan;

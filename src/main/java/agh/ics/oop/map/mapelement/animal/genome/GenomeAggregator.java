@@ -7,7 +7,7 @@ import java.util.Map;
 import java.util.SortedMap;
 import java.util.SortedSet;
 
-public class GenomeAggregator { // todo - nieużywane
+public class GenomeAggregator {
     private Map<int[], Integer> genomeMap;
 
     public GenomeAggregator(){

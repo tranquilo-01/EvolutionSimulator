@@ -44,7 +44,6 @@ public class SimulationWindow extends Application implements IRenderer {
         this.grid = new GridPane();
         MapVariant mapVariant = (MapVariant) params.get(ParameterType.MAP_VARIANT);
         IWorldMap map;
-//                                         consider - czy to powinno dziać się w tej klasie?
         switch (mapVariant) {
             case TUBULAR -> map = new TubularMap(params);
             case HELL_PORTAL -> map = new RectangularMap(params);
